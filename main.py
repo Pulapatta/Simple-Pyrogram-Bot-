@@ -2,7 +2,6 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton 
 from pyrogram.types import CallbackQuery
 import randam
-import os
 
 PHOTO_LINK = [
  "https://telegra.ph/file/4a842ee4ee51732835c57.jpg",
