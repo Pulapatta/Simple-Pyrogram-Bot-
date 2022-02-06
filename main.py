@@ -7,7 +7,7 @@ import os
 PHOTO_LINK = [
  "https://telegra.ph/file/4a842ee4ee51732835c57.jpg",
  "https://telegra.ph/file/4a842ee4ee51732835c57.jpg"
- ]
+]
 
 Muhammed= Client(
     "Pyrogram Bot",
