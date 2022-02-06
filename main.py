@@ -34,7 +34,7 @@ async def start_message(bot, message):
 async def callback(bot: Muhammad, query: CallbackQuery):
     if query.query.data== "start":
         await message.message.edit(
-            text=f" hello {msg.from_user.mention}  Start Text"
+            text=f" hello {query.from_user.mention}  Start Text"
         )
 
 
