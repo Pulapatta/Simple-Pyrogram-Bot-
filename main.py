@@ -26,7 +26,8 @@ async def start_message(bot, message):
         photo=random.choice(PHOTO_LINK),
         caption=f"Hello {message.from_user.mention}   Bro Sugamano",
         reply_markup=InlineKeyboardMarkup(buttons)
-    )
+        )
+     )
 
 
 
