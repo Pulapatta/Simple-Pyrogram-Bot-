@@ -24,7 +24,7 @@ async def start_message(bot, message):
       ]]
     await messages.reply_photo(
         photo=random.choice(PHOTO_LINK),
-        text="Hello {message.from_user.mention}   Bro Sugamano",
+        text=f"Hello {message.from_user.mention}   Bro Sugamano",
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
