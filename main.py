@@ -27,8 +27,6 @@ async def start_message(bot, message):
         caption=f"Hello {message.from_user.mention}   Bro Sugamano",
         reply_markup=InlineKeyboardMarkup(buttons)
         )
-     )
-
 
 
 @Muhammed.on_callback_query()
