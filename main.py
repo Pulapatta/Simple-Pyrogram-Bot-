@@ -22,9 +22,9 @@ async def start_message(bot, message):
     button = [[
       InlineKeyboardButton("Mo Tech YT", callback_data="start")
       ]]
-    await messages.reply_photo(
+   await messages.reply_photo(
         photo=random.choice(PHOTO_LINK),
-        text=f"Hello {message.from_user.mention}   Bro Sugamano",
+        caption=f"Hello {message.from_user.mention}   Bro Sugamano",
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
