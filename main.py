@@ -9,7 +9,7 @@ PHOTO_LINK = [
  "https://telegra.ph/file/4a842ee4ee51732835c57.jpg"
 ]
 
-Muhammed= Client(
+Muhammed=Client(
     "Pyrogram Bot",
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
@@ -26,7 +26,7 @@ async def start_message(bot, message):
         photo=random.choice(PHOTO_LINK),
         caption=f"Hello {message.from_user.mention}   Bro Sugamano",
         reply_markup=InlineKeyboardMarkup(buttons)
-        )
+    )
 
 
 @Muhammed.on_callback_query()
